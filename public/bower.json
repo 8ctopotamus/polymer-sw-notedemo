@@ -1,0 +1,21 @@
+{
+  "name": "noteapp-sw-polymer",
+  "authors": [
+    "Josh Naylor <joshnaylor88@gmail.com>"
+  ],
+  "description": "a demo note app using polymer, firebase, platinum service worker",
+  "main": "public/index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "note-app-elements": "polymerlabs/note-app-elements",
+    "polymerfire": "firebase/polymerfire#^0.10.3"
+  }
+}
